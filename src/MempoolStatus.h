@@ -2,8 +2,8 @@
 // Created by mwo on 28/05/17.
 //
 
-#ifndef LOKBLOCKS_MEMPOOLSTATUS_H
-#define LOKBLOCKS_MEMPOOLSTATUS_H
+#ifndef SEVABLOCKS_MEMPOOLSTATUS_H
+#define SEVABLOCKS_MEMPOOLSTATUS_H
 
 
 #include "MicroCore.h"
@@ -51,12 +51,12 @@ struct MempoolStatus
                       // 'e' - encrypted, short, from integrated addresses
     };
 
-    struct service_node_state
+    struct super_node_state
     {
       int num_registered;
     };
 
-    static service_node_state node_state;
+    static super_node_state node_state;
 
     // to keep network_info in cache
     // and to show previous info in case current querry for
@@ -173,4 +173,4 @@ struct MempoolStatus
 };
 
 }
-#endif //LOKBLOCKS_MEMPOOLSTATUS_H
+#endif //SEVABLOCKS_MEMPOOLSTATUS_H

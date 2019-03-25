@@ -2,12 +2,12 @@
 // Created by mwo on 5/11/15.
 //
 
-#ifndef LOKEG01_MICROCORE_H
-#define LOKEG01_MICROCORE_H
+#ifndef SEVAEG01_MICROCORE_H
+#define SEVAEG01_MICROCORE_H
 
 #include <iostream>
 
-#include "loki_headers.h"
+#include "sevabit_headers.h"
 #include "tools.h"
 
 namespace lokeg
@@ -30,14 +30,14 @@ namespace lokeg
 
         Blockchain m_blockchain_storage;
         tx_memory_pool m_mempool;
-        service_nodes::deregister_vote_pool m_deregister_vote_pool;
+        super_nodes::deregister_vote_pool m_deregister_vote_pool;
 
         hw::device* m_device;
 
         network_type nettype;
 
     public:
-        service_nodes::service_node_list m_service_node_list;
+        super_nodes::super_node_list m_super_node_list;
 
         MicroCore();
 
@@ -93,4 +93,4 @@ namespace lokeg
 
 
 
-#endif //LOKEG01_MICROCORE_H
+#endif //SEVAEG01_MICROCORE_H

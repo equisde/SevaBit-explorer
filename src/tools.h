@@ -2,12 +2,12 @@
 // Created by mwo on 5/11/15.
 //
 
-#ifndef LOKEG01_TOOLS_H
-#define LOKEG01_TOOLS_H
+#ifndef SEVAEG01_TOOLS_H
+#define SEVAEG01_TOOLS_H
 
 #define PATH_SEPARARTOR '/'
 
-#define LOK_AMOUNT(value) \
+#define SEVA_AMOUNT(value) \
     static_cast<double>(value) / 1e9
 
 #define REMOVE_HASH_BRAKETS(a_hash) \
@@ -15,7 +15,7 @@
 
 
 
-#include "loki_headers.h"
+#include "sevabit_headers.h"
 
 #include "../ext/fmt/ostream.h"
 #include "../ext/fmt/format.h"
@@ -224,7 +224,7 @@ get_payment_id(const transaction& tx,
 inline double
 get_lok(uint64_t core_amount)
 {
-    return LOK_AMOUNT(core_amount);
+    return SEVA_AMOUNT(core_amount);
 }
 
 array<size_t, 5>
@@ -281,13 +281,13 @@ lok_amount_to_str(const uint64_t& lok_amount,
 
     if (!zero_to_question_mark)
     {
-        amount_str = fmt::format(_format, LOK_AMOUNT(lok_amount));
+        amount_str = fmt::format(_format, SEVA_AMOUNT(lok_amount));
     }
     else
     {
         if (lok_amount > 0 && zero_to_question_mark == true)
         {
-            amount_str = fmt::format(_format, LOK_AMOUNT(lok_amount));
+            amount_str = fmt::format(_format, SEVA_AMOUNT(lok_amount));
         }
     }
 
@@ -387,4 +387,4 @@ tx_to_hex(transaction const& tx);
 
 }
 
-#endif //LOKEG01_TOOLS_H
+#endif //SEVAEG01_TOOLS_H

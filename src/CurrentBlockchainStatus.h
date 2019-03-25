@@ -2,11 +2,11 @@
 // Created by mwo on 16/05/17.
 //
 
-#ifndef LOKBLOCKS_CURRENTBLOCKCHAINSTATUS_H
-#define LOKBLOCKS_CURRENTBLOCKCHAINSTATUS_H
+#ifndef SEVABLOCKS_CURRENTBLOCKCHAINSTATUS_H
+#define SEVABLOCKS_CURRENTBLOCKCHAINSTATUS_H
 
 #include "mstch/mstch.hpp"
-#include "loki_headers.h"
+#include "sevabit_headers.h"
 #include "MicroCore.h"
 
 #include <boost/algorithm/string.hpp>
@@ -113,4 +113,4 @@ struct CurrentBlockchainStatus
 
 }
 
-#endif //LOKBLOCKS_CURRENTBLOCKCHAINSTATUS_H
+#endif //SEVABLOCKS_CURRENTBLOCKCHAINSTATUS_H

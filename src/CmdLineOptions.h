@@ -2,8 +2,8 @@
 // Created by mwo on 6/11/15.
 //
 
-#ifndef LOKEG01_CMDLINEOPTIONS_H
-#define LOKEG01_CMDLINEOPTIONS_H
+#ifndef SEVAEG01_CMDLINEOPTIONS_H
+#define SEVAEG01_CMDLINEOPTIONS_H
 
 #include <iostream>
 #include <string>
@@ -34,4 +34,4 @@ namespace lokeg
 }
 
 
-#endif //LOKEG01_CMDLINEOPTIONS_H
+#endif //SEVAEG01_CMDLINEOPTIONS_H

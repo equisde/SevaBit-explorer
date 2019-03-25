@@ -178,7 +178,7 @@ MempoolStatus::read_mempool()
 
         double tx_size =  static_cast<double>(_tx_info.blob_size)/1024.0;
 
-        double payed_for_kB = LOK_AMOUNT(_tx_info.fee) / tx_size;
+        double payed_for_kB = SEVA_AMOUNT(_tx_info.fee) / tx_size;
 
         last_tx.receive_time = _tx_info.receive_time;
 
@@ -350,7 +350,7 @@ MempoolStatus::is_thread_running()
     return is_running;
 }
 
-bf::path MempoolStatus::blockchain_path {"/home/mwo/.loki/lmdb"};
+bf::path MempoolStatus::blockchain_path {"/home/mwo/.sevabit/lmdb"};
 string MempoolStatus::daemon_url {"http:://127.0.0.1:22023"};
 cryptonote::network_type MempoolStatus::nettype {cryptonote::network_type::MAINNET};
 atomic<bool>       MempoolStatus::is_running {false};
@@ -363,5 +363,5 @@ atomic<uint64_t> MempoolStatus::mempool_no {0};   // no of txs
 atomic<uint64_t> MempoolStatus::mempool_size {0}; // size in bytes.
 uint64_t MempoolStatus::mempool_refresh_time {10};
 mutex MempoolStatus::mempool_mutx;
-MempoolStatus::service_node_state MempoolStatus::node_state = {};
+MempoolStatus::super_node_state MempoolStatus::node_state = {};
 }

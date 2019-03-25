@@ -72,7 +72,7 @@ get_tx_pub_key_from_str_hash(Blockchain& core_storage, const string& hash_str, t
 }
 
 /**
-* Parse loki address in a string form into
+* Parse sevabit address in a string form into
 * cryptonote::account_public_address object
 */
 bool
@@ -92,7 +92,7 @@ parse_str_address(const string& address_str,
 
 
 /**
-* Return string representation of loki address
+* Return string representation of sevabit address
 */
 string
 print_address(const address_parse_info& address_info, cryptonote::network_type nettype)
@@ -239,19 +239,19 @@ generate_key_image(const crypto::key_derivation& derivation,
 string
 get_default_lmdb_folder(cryptonote::network_type nettype)
 {
-    // default path to loki folder
-    // on linux this is /home/<username>/.loki
-    string default_loki_dir = tools::get_default_data_dir();
+    // default path to sevabit folder
+    // on linux this is /home/<username>/.sevabit
+    string default_sevabit_dir = tools::get_default_data_dir();
 
     if (nettype == cryptonote::network_type::TESTNET)
-        default_loki_dir += "/testnet";
+        default_sevabit_dir += "/testnet";
     if (nettype == cryptonote::network_type::STAGENET)
-        default_loki_dir += "/stagenet";
+        default_sevabit_dir += "/stagenet";
 
 
     // the default folder of the lmdb blockchain database
     // is therefore as follows
-    return default_loki_dir + string("/lmdb");
+    return default_sevabit_dir + string("/lmdb");
 }
 
 

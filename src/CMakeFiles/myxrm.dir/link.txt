@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmyxrm.a  CMakeFiles/myxrm.dir/MicroCore.cpp.o CMakeFiles/myxrm.dir/tools.cpp.o CMakeFiles/myxrm.dir/CmdLineOptions.cpp.o CMakeFiles/myxrm.dir/rpccalls.cpp.o CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.o CMakeFiles/myxrm.dir/MempoolStatus.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmyxrm.a
