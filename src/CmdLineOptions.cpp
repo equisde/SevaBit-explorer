@@ -51,7 +51,7 @@ namespace lokeg
                  "enable users to have the index page on autorefresh")
                 ("enable-emission-monitor", value<bool>()->default_value(false)->implicit_value(true),
                  "enable Sevabit total emission monitoring thread")
-                ("port,p", value<string>()->default_value("8081"),
+                ("port,p", value<string>()->default_value("80"),
                  "default explorer port")
                 ("bindaddr,x", value<string>()->default_value("0.0.0.0"),
                  "default bind address for the explorer")
@@ -73,7 +73,7 @@ namespace lokeg
                  "path to crt file for ssl (https) functionality")
                 ("ssl-key-file", value<string>(),
                  "path to key file for ssl (https) functionality")
-                ("daemon-url,d", value<string>()->default_value("http:://127.0.0.1:22023"),
+                ("daemon-url,d", value<string>()->default_value("http:://0.0.0.0:22049"),
                  "Sevabit daemon url");
 
 

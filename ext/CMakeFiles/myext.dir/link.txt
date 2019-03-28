@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmyext.a  CMakeFiles/myext.dir/fmt/format.cc.o CMakeFiles/myext.dir/fmt/ostream.cc.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmyext.a
+/usr/bin/ar qc libmyext.a  CMakeFiles/myext.dir/fmt/format.cc.o CMakeFiles/myext.dir/fmt/ostream.cc.o
+/usr/bin/ranlib libmyext.a

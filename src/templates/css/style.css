@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .PageButton {
-    background-color: #008522;
+    background-color: #472b88;
     min-height: 1.5em;
     padding: 5px;
     padding-top: 8px;
@@ -58,13 +58,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .TableHeader {
     font-weight: bold;
-    background-color: #008522;
+    background-color: #472b88;
 }
 
 .TitleDivider {
     height: 2px;
     width: 100%;
-    background-color: #008522;
+    background-color: #e3a128;
     margin-bottom: 1em;
 }
 
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 { color: white; }
 }
 
 .tab label {
-    background: rgba(0, 133, 34, 0.5);
+    background: rgba(227, 161, 40, 0.5);
     padding: 10px;
     margin-right: 2px;
     margin-left: -1px;
@@ -163,11 +163,11 @@ h1, h2, h3, h4, h5, h6 { color: white; }
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border-top: 2px solid #008522;
+    border-top: 2px solid #e3a128;
 }
 
 [type=radio]:checked ~ label {
-    background: #008522 ;
+    background: #472b88 ;
     z-index: 2;
 }
 

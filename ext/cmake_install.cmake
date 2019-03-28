@@ -1,4 +1,4 @@
-# Install script for directory: /Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/ext
+# Install script for directory: /home/pete/sevabit-explorer-fix-peter/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,14 +27,14 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/ext/mstch/cmake_install.cmake")
+  include("/home/pete/sevabit-explorer-fix-peter/ext/mstch/cmake_install.cmake")
 
 endif()
 

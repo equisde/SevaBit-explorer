@@ -4,25 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CmdLineOptions.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.o"
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CurrentBlockchainStatus.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.o"
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/MempoolStatus.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.o"
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/MicroCore.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/MicroCore.cpp.o"
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/rpccalls.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/rpccalls.cpp.o"
-  "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/tools.cpp" "/Users/asalas/Desktop/sources/sevabit-explorer/onion-loki-blockchain-explorer/src/CMakeFiles/myxrm.dir/tools.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/CmdLineOptions.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/CurrentBlockchainStatus.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/MempoolStatus.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/MicroCore.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/MicroCore.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/rpccalls.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/rpccalls.cpp.o"
+  "/home/pete/sevabit-explorer-fix-peter/src/tools.cpp" "/home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/myxrm.dir/tools.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Users/asalas/sevabit/src"
-  "/Users/asalas/sevabit/external"
-  "/Users/asalas/sevabit/build"
-  "/Users/asalas/sevabit/external/easylogging++"
-  "/Users/asalas/sevabit/contrib/epee/include"
-  "/Users/asalas/sevabit/external/db_drivers/liblmdb"
-  "/usr/local/opt/openssl/include"
-  "/usr/local/include"
+  "/root/sevabit/src"
+  "/root/sevabit/external"
+  "/root/sevabit/build"
+  "/root/sevabit/external/easylogging++"
+  "/root/sevabit/contrib/epee/include"
+  "/root/sevabit/external/db_drivers/liblmdb"
   "ext/mstch/include"
   "ext/mstch/include/src"
   "ext/crow"

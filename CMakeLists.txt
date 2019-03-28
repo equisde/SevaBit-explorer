@@ -12,7 +12,6 @@ if (WIN32)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wa,-mbig-obj -O3")
 endif()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Winconsistent-missing-override")
 
 
 if (NOT SEVABIT_DIR)
@@ -25,7 +24,7 @@ set(SEVABIT_SOURCE_DIR ${SEVABIT_DIR}
         CACHE PATH "Path to the root directory for Sevabit")
 
 # set location of sevabit build tree
-set(SEVABIT_BUILD_DIR ${SEVABIT_SOURCE_DIR}/build/release/
+set(SEVABIT_BUILD_DIR ${SEVABIT_SOURCE_DIR}/build/Linux/master/release/
         CACHE PATH "Path to the build directory for Sevabit")
 
 set(MY_CMAKE_DIR "${CMAKE_CURRENT_LIST_DIR}/cmake"

@@ -54,9 +54,9 @@
     </table>
 
     {{#have_deregister_info}}
-        <h2>Service Node Deregister Metadata</h2>
+        <h2>Super Node Deregister Metadata</h2>
         <div class="TitleDivider"></div>
-        <p>Service Node Index: {{deregister_super_node_index}}</p>
+        <p>Super Node Index: {{deregister_super_node_index}}</p>
         <p>Block Height: {{deregister_block_height}}</p>
 
         <table class="Table">
@@ -75,14 +75,14 @@
     {{/have_deregister_info}}
 
     {{#have_register_info}}
-        <h2>Service Node Register Metadata</h2>
+        <h2>Super Node Register Metadata</h2>
         <div class="TitleDivider"></div>
-        <p>Service Node Public Key: {{register_super_node_pubkey}}</p>
+        <p>Super Node Public Key: {{register_super_node_pubkey}}</p>
         <p>Portions For Operator: {{register_portions_for_operator}}%</p>
         <p>Expiration Timestamp: {{register_expiration_timestamp_friendly}} ({{register_expiration_timestamp}}) or {{register_expiration_timestamp_relative}}</p>
         <p>Signature: {{register_signature}}</p>
 
-        <h2>Service Node Register Payout Addresses</h2>
+        <h2>Super Node Register Payout Addresses</h2>
         <div class="TitleDivider"></div>
         <table class="Table">
             <tr class="TableHeader">
@@ -100,7 +100,7 @@
     {{/have_register_info}}
 
   <h2>Outputs</h2>
-  <h4 class="Subtitle">{{outputs_no}} output(s) for total of {{outputs_lok_sum}} lok</h4>
+  <h4 class="Subtitle">{{outputs_no}} output(s) for total of {{outputs_lok_sum}} sevas</h4>
   <div class="TitleDivider"></div>
   <div>
       <table class="Table">
@@ -443,14 +443,14 @@
     {{/enable_mixins_details}}
 
     {{^inputs_lok_sum_not_zero}}
-        <h3>{{inputs_no}} input(s) for total of {{inputs_lok_sum}} lok</h3>
+        <h3>{{inputs_no}} input(s) for total of {{inputs_lok_sum}} sevas</h3>
     {{/inputs_lok_sum_not_zero}}
     {{#inputs_lok_sum_not_zero}}
         {{^have_any_unknown_amount}}
-            <h3>{{inputs_no}} inputs(s) for total of {{inputs_lok_sum}} lok</h3>
+            <h3>{{inputs_no}} inputs(s) for total of {{inputs_lok_sum}} sevas</h3>
         {{/have_any_unknown_amount}}
         {{#have_any_unknown_amount}}
-            <h3>{{inputs_no}} inputs(s) for total of at least {{inputs_lok_sum}} lok</h3>
+            <h3>{{inputs_no}} inputs(s) for total of at least {{inputs_lok_sum}} sevas</h3>
         {{/have_any_unknown_amount}}
     {{/inputs_lok_sum_not_zero}}
 
