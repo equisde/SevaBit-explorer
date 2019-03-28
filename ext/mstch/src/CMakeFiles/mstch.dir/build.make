@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_SOURCE_DIR = /home/pete/copia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_BINARY_DIR = /home/pete/copia
 
 # Include any dependencies generated for this target.
 include ext/mstch/src/CMakeFiles/mstch.dir/depend.make
@@ -59,16 +59,16 @@ include ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o: ext/mstch/src/state/in_section.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/state/in_section.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/in_section.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/state/in_section.cpp.o -c /home/pete/copia/ext/mstch/src/state/in_section.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/state/in_section.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/in_section.cpp > CMakeFiles/mstch.dir/state/in_section.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/state/in_section.cpp > CMakeFiles/mstch.dir/state/in_section.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/state/in_section.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/in_section.cpp -o CMakeFiles/mstch.dir/state/in_section.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/state/in_section.cpp -o CMakeFiles/mstch.dir/state/in_section.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o.requires:
 
@@ -83,16 +83,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o.provides.build: ext/ms
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o: ext/mstch/src/state/outside_section.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/state/outside_section.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/outside_section.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/state/outside_section.cpp.o -c /home/pete/copia/ext/mstch/src/state/outside_section.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/state/outside_section.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/outside_section.cpp > CMakeFiles/mstch.dir/state/outside_section.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/state/outside_section.cpp > CMakeFiles/mstch.dir/state/outside_section.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/state/outside_section.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/outside_section.cpp -o CMakeFiles/mstch.dir/state/outside_section.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/state/outside_section.cpp -o CMakeFiles/mstch.dir/state/outside_section.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o.requires:
 
@@ -107,16 +107,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o.provides.build: e
 
 ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o: ext/mstch/src/mstch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/mstch.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/mstch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/mstch.cpp.o -c /home/pete/copia/ext/mstch/src/mstch.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/mstch.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/mstch.cpp > CMakeFiles/mstch.dir/mstch.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/mstch.cpp > CMakeFiles/mstch.dir/mstch.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/mstch.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/mstch.cpp -o CMakeFiles/mstch.dir/mstch.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/mstch.cpp -o CMakeFiles/mstch.dir/mstch.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o.requires:
 
@@ -131,16 +131,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o.provides.build: ext/mstch/src/CMa
 
 ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o: ext/mstch/src/render_context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/render_context.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/render_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/render_context.cpp.o -c /home/pete/copia/ext/mstch/src/render_context.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/render_context.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/render_context.cpp > CMakeFiles/mstch.dir/render_context.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/render_context.cpp > CMakeFiles/mstch.dir/render_context.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/render_context.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/render_context.cpp -o CMakeFiles/mstch.dir/render_context.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/render_context.cpp -o CMakeFiles/mstch.dir/render_context.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o.requires:
 
@@ -155,16 +155,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o.provides.build: ext/mstc
 
 ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o: ext/mstch/src/template_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/template_type.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/template_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/template_type.cpp.o -c /home/pete/copia/ext/mstch/src/template_type.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/template_type.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/template_type.cpp > CMakeFiles/mstch.dir/template_type.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/template_type.cpp > CMakeFiles/mstch.dir/template_type.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/template_type.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/template_type.cpp -o CMakeFiles/mstch.dir/template_type.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/template_type.cpp -o CMakeFiles/mstch.dir/template_type.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o.requires:
 
@@ -179,16 +179,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o.provides.build: ext/mstch
 
 ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o: ext/mstch/src/token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/token.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/token.cpp.o -c /home/pete/copia/ext/mstch/src/token.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/token.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/token.cpp > CMakeFiles/mstch.dir/token.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/token.cpp > CMakeFiles/mstch.dir/token.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/token.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/token.cpp -o CMakeFiles/mstch.dir/token.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/token.cpp -o CMakeFiles/mstch.dir/token.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o.requires:
 
@@ -203,16 +203,16 @@ ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o.provides.build: ext/mstch/src/CMa
 
 ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o: ext/mstch/src/CMakeFiles/mstch.dir/flags.make
 ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o: ext/mstch/src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/utils.cpp.o -c /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o"
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mstch.dir/utils.cpp.o -c /home/pete/copia/ext/mstch/src/utils.cpp
 
 ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mstch.dir/utils.cpp.i"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/utils.cpp > CMakeFiles/mstch.dir/utils.cpp.i
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pete/copia/ext/mstch/src/utils.cpp > CMakeFiles/mstch.dir/utils.cpp.i
 
 ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mstch.dir/utils.cpp.s"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/utils.cpp -o CMakeFiles/mstch.dir/utils.cpp.s
+	cd /home/pete/copia/ext/mstch/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pete/copia/ext/mstch/src/utils.cpp -o CMakeFiles/mstch.dir/utils.cpp.s
 
 ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o.requires:
 
@@ -247,9 +247,9 @@ ext/mstch/src/libmstch.a: ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o
 ext/mstch/src/libmstch.a: ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o
 ext/mstch/src/libmstch.a: ext/mstch/src/CMakeFiles/mstch.dir/build.make
 ext/mstch/src/libmstch.a: ext/mstch/src/CMakeFiles/mstch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pete/sevabit-explorer-fix-peter/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libmstch.a"
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && $(CMAKE_COMMAND) -P CMakeFiles/mstch.dir/cmake_clean_target.cmake
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mstch.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pete/copia/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libmstch.a"
+	cd /home/pete/copia/ext/mstch/src && $(CMAKE_COMMAND) -P CMakeFiles/mstch.dir/cmake_clean_target.cmake
+	cd /home/pete/copia/ext/mstch/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mstch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/mstch/src/CMakeFiles/mstch.dir/build: ext/mstch/src/libmstch.a
@@ -267,10 +267,10 @@ ext/mstch/src/CMakeFiles/mstch.dir/requires: ext/mstch/src/CMakeFiles/mstch.dir/
 .PHONY : ext/mstch/src/CMakeFiles/mstch.dir/requires
 
 ext/mstch/src/CMakeFiles/mstch.dir/clean:
-	cd /home/pete/sevabit-explorer-fix-peter/ext/mstch/src && $(CMAKE_COMMAND) -P CMakeFiles/mstch.dir/cmake_clean.cmake
+	cd /home/pete/copia/ext/mstch/src && $(CMAKE_COMMAND) -P CMakeFiles/mstch.dir/cmake_clean.cmake
 .PHONY : ext/mstch/src/CMakeFiles/mstch.dir/clean
 
 ext/mstch/src/CMakeFiles/mstch.dir/depend:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pete/sevabit-explorer-fix-peter /home/pete/sevabit-explorer-fix-peter/ext/mstch/src /home/pete/sevabit-explorer-fix-peter /home/pete/sevabit-explorer-fix-peter/ext/mstch/src /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pete/copia && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pete/copia /home/pete/copia/ext/mstch/src /home/pete/copia /home/pete/copia/ext/mstch/src /home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/mstch/src/CMakeFiles/mstch.dir/depend
 

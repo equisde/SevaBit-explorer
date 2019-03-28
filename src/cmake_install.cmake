@@ -1,4 +1,4 @@
-# Install script for directory: /home/pete/sevabit-explorer-fix-peter/src
+# Install script for directory: /home/pete/copia/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

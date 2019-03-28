@@ -1,4 +1,4 @@
-# Install script for directory: /home/pete/sevabit-explorer-fix-peter/ext
+# Install script for directory: /home/pete/copia/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pete/sevabit-explorer-fix-peter/ext/mstch/cmake_install.cmake")
+  include("/home/pete/copia/ext/mstch/cmake_install.cmake")
 
 endif()
 

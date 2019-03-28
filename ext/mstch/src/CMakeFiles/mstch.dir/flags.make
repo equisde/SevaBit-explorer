@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -Wextra -O3 -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pete/sevabit-explorer-fix-peter/ext/mstch/src -I/root/sevabit/src -I/root/sevabit/external -I/root/sevabit/build -I/root/sevabit/external/easylogging++ -I/root/sevabit/contrib/epee/include -I/root/sevabit/external/db_drivers/liblmdb -I/home/pete/sevabit-explorer-fix-peter/ext/mstch/include -I/home/pete/sevabit-explorer-fix-peter/ext/mstch/include/src -I/home/pete/sevabit-explorer-fix-peter/ext/crow 
+CXX_INCLUDES = -I/home/pete/copia/ext/mstch/src -I/root/sevabit/src -I/root/sevabit/external -I/root/sevabit/build -I/root/sevabit/external/easylogging++ -I/root/sevabit/contrib/epee/include -I/root/sevabit/external/db_drivers/liblmdb -I/home/pete/copia/ext/mstch/include -I/home/pete/copia/ext/mstch/include/src -I/home/pete/copia/ext/crow 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_SOURCE_DIR = /home/pete/copia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_BINARY_DIR = /home/pete/copia
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles /home/pete/sevabit-explorer-fix-peter/src/CMakeFiles/progress.marks
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles /home/pete/copia/src/CMakeFiles/progress.marks
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/myxrm.dir/rule:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/myxrm.dir/rule
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/myxrm.dir/rule
 .PHONY : src/CMakeFiles/myxrm.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ myxrm: src/CMakeFiles/myxrm.dir/rule
 
 # fast build rule for target.
 myxrm/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/build
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/build
 .PHONY : myxrm/fast
 
 CmdLineOptions.o: CmdLineOptions.cpp.o
@@ -131,7 +131,7 @@ CmdLineOptions.o: CmdLineOptions.cpp.o
 
 # target to build an object file
 CmdLineOptions.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.o
 .PHONY : CmdLineOptions.cpp.o
 
 CmdLineOptions.i: CmdLineOptions.cpp.i
@@ -140,7 +140,7 @@ CmdLineOptions.i: CmdLineOptions.cpp.i
 
 # target to preprocess a source file
 CmdLineOptions.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.i
 .PHONY : CmdLineOptions.cpp.i
 
 CmdLineOptions.s: CmdLineOptions.cpp.s
@@ -149,7 +149,7 @@ CmdLineOptions.s: CmdLineOptions.cpp.s
 
 # target to generate assembly for a file
 CmdLineOptions.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CmdLineOptions.cpp.s
 .PHONY : CmdLineOptions.cpp.s
 
 CurrentBlockchainStatus.o: CurrentBlockchainStatus.cpp.o
@@ -158,7 +158,7 @@ CurrentBlockchainStatus.o: CurrentBlockchainStatus.cpp.o
 
 # target to build an object file
 CurrentBlockchainStatus.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.o
 .PHONY : CurrentBlockchainStatus.cpp.o
 
 CurrentBlockchainStatus.i: CurrentBlockchainStatus.cpp.i
@@ -167,7 +167,7 @@ CurrentBlockchainStatus.i: CurrentBlockchainStatus.cpp.i
 
 # target to preprocess a source file
 CurrentBlockchainStatus.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.i
 .PHONY : CurrentBlockchainStatus.cpp.i
 
 CurrentBlockchainStatus.s: CurrentBlockchainStatus.cpp.s
@@ -176,7 +176,7 @@ CurrentBlockchainStatus.s: CurrentBlockchainStatus.cpp.s
 
 # target to generate assembly for a file
 CurrentBlockchainStatus.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/CurrentBlockchainStatus.cpp.s
 .PHONY : CurrentBlockchainStatus.cpp.s
 
 MempoolStatus.o: MempoolStatus.cpp.o
@@ -185,7 +185,7 @@ MempoolStatus.o: MempoolStatus.cpp.o
 
 # target to build an object file
 MempoolStatus.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.o
 .PHONY : MempoolStatus.cpp.o
 
 MempoolStatus.i: MempoolStatus.cpp.i
@@ -194,7 +194,7 @@ MempoolStatus.i: MempoolStatus.cpp.i
 
 # target to preprocess a source file
 MempoolStatus.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.i
 .PHONY : MempoolStatus.cpp.i
 
 MempoolStatus.s: MempoolStatus.cpp.s
@@ -203,7 +203,7 @@ MempoolStatus.s: MempoolStatus.cpp.s
 
 # target to generate assembly for a file
 MempoolStatus.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MempoolStatus.cpp.s
 .PHONY : MempoolStatus.cpp.s
 
 MicroCore.o: MicroCore.cpp.o
@@ -212,7 +212,7 @@ MicroCore.o: MicroCore.cpp.o
 
 # target to build an object file
 MicroCore.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.o
 .PHONY : MicroCore.cpp.o
 
 MicroCore.i: MicroCore.cpp.i
@@ -221,7 +221,7 @@ MicroCore.i: MicroCore.cpp.i
 
 # target to preprocess a source file
 MicroCore.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.i
 .PHONY : MicroCore.cpp.i
 
 MicroCore.s: MicroCore.cpp.s
@@ -230,7 +230,7 @@ MicroCore.s: MicroCore.cpp.s
 
 # target to generate assembly for a file
 MicroCore.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/MicroCore.cpp.s
 .PHONY : MicroCore.cpp.s
 
 rpccalls.o: rpccalls.cpp.o
@@ -239,7 +239,7 @@ rpccalls.o: rpccalls.cpp.o
 
 # target to build an object file
 rpccalls.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.o
 .PHONY : rpccalls.cpp.o
 
 rpccalls.i: rpccalls.cpp.i
@@ -248,7 +248,7 @@ rpccalls.i: rpccalls.cpp.i
 
 # target to preprocess a source file
 rpccalls.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.i
 .PHONY : rpccalls.cpp.i
 
 rpccalls.s: rpccalls.cpp.s
@@ -257,7 +257,7 @@ rpccalls.s: rpccalls.cpp.s
 
 # target to generate assembly for a file
 rpccalls.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/rpccalls.cpp.s
 .PHONY : rpccalls.cpp.s
 
 tools.o: tools.cpp.o
@@ -266,7 +266,7 @@ tools.o: tools.cpp.o
 
 # target to build an object file
 tools.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.o
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.o
 .PHONY : tools.cpp.o
 
 tools.i: tools.cpp.i
@@ -275,7 +275,7 @@ tools.i: tools.cpp.i
 
 # target to preprocess a source file
 tools.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.i
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.i
 .PHONY : tools.cpp.i
 
 tools.s: tools.cpp.s
@@ -284,7 +284,7 @@ tools.s: tools.cpp.s
 
 # target to generate assembly for a file
 tools.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.s
+	cd /home/pete/copia && $(MAKE) -f src/CMakeFiles/myxrm.dir/build.make src/CMakeFiles/myxrm.dir/tools.cpp.s
 .PHONY : tools.cpp.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

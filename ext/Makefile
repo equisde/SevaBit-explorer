@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_SOURCE_DIR = /home/pete/copia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_BINARY_DIR = /home/pete/copia
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles /home/pete/sevabit-explorer-fix-peter/ext/CMakeFiles/progress.marks
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles /home/pete/copia/ext/CMakeFiles/progress.marks
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/clean
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/CMakeFiles/myext.dir/rule:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/CMakeFiles/myext.dir/rule
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/CMakeFiles/myext.dir/rule
 .PHONY : ext/CMakeFiles/myext.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ myext: ext/CMakeFiles/myext.dir/rule
 
 # fast build rule for target.
 myext/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/build
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/build
 .PHONY : myext/fast
 
 fmt/format.o: fmt/format.cc.o
@@ -131,7 +131,7 @@ fmt/format.o: fmt/format.cc.o
 
 # target to build an object file
 fmt/format.cc.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.o
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.o
 .PHONY : fmt/format.cc.o
 
 fmt/format.i: fmt/format.cc.i
@@ -140,7 +140,7 @@ fmt/format.i: fmt/format.cc.i
 
 # target to preprocess a source file
 fmt/format.cc.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.i
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.i
 .PHONY : fmt/format.cc.i
 
 fmt/format.s: fmt/format.cc.s
@@ -149,7 +149,7 @@ fmt/format.s: fmt/format.cc.s
 
 # target to generate assembly for a file
 fmt/format.cc.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.s
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/format.cc.s
 .PHONY : fmt/format.cc.s
 
 fmt/ostream.o: fmt/ostream.cc.o
@@ -158,7 +158,7 @@ fmt/ostream.o: fmt/ostream.cc.o
 
 # target to build an object file
 fmt/ostream.cc.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.o
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.o
 .PHONY : fmt/ostream.cc.o
 
 fmt/ostream.i: fmt/ostream.cc.i
@@ -167,7 +167,7 @@ fmt/ostream.i: fmt/ostream.cc.i
 
 # target to preprocess a source file
 fmt/ostream.cc.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.i
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.i
 .PHONY : fmt/ostream.cc.i
 
 fmt/ostream.s: fmt/ostream.cc.s
@@ -176,7 +176,7 @@ fmt/ostream.s: fmt/ostream.cc.s
 
 # target to generate assembly for a file
 fmt/ostream.cc.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.s
+	cd /home/pete/copia && $(MAKE) -f ext/CMakeFiles/myext.dir/build.make ext/CMakeFiles/myext.dir/fmt/ostream.cc.s
 .PHONY : fmt/ostream.cc.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

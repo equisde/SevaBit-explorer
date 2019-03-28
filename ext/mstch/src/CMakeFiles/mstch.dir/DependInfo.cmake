@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/mstch.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/render_context.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/in_section.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/state/outside_section.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/template_type.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/token.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o"
-  "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/utils.cpp" "/home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o"
+  "/home/pete/copia/ext/mstch/src/mstch.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o"
+  "/home/pete/copia/ext/mstch/src/render_context.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o"
+  "/home/pete/copia/ext/mstch/src/state/in_section.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o"
+  "/home/pete/copia/ext/mstch/src/state/outside_section.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o"
+  "/home/pete/copia/ext/mstch/src/template_type.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o"
+  "/home/pete/copia/ext/mstch/src/token.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o"
+  "/home/pete/copia/ext/mstch/src/utils.cpp" "/home/pete/copia/ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

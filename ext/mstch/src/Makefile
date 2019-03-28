@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_SOURCE_DIR = /home/pete/copia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pete/sevabit-explorer-fix-peter
+CMAKE_BINARY_DIR = /home/pete/copia
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles /home/pete/sevabit-explorer-fix-peter/ext/mstch/src/CMakeFiles/progress.marks
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/sevabit-explorer-fix-peter/CMakeFiles 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles /home/pete/copia/ext/mstch/src/CMakeFiles/progress.marks
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pete/copia/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/clean
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/preinstall
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/mstch/src/CMakeFiles/mstch.dir/rule:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/CMakeFiles/mstch.dir/rule
+	cd /home/pete/copia && $(MAKE) -f CMakeFiles/Makefile2 ext/mstch/src/CMakeFiles/mstch.dir/rule
 .PHONY : ext/mstch/src/CMakeFiles/mstch.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mstch: ext/mstch/src/CMakeFiles/mstch.dir/rule
 
 # fast build rule for target.
 mstch/fast:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/build
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/build
 .PHONY : mstch/fast
 
 mstch.o: mstch.cpp.o
@@ -131,7 +131,7 @@ mstch.o: mstch.cpp.o
 
 # target to build an object file
 mstch.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.o
 .PHONY : mstch.cpp.o
 
 mstch.i: mstch.cpp.i
@@ -140,7 +140,7 @@ mstch.i: mstch.cpp.i
 
 # target to preprocess a source file
 mstch.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.i
 .PHONY : mstch.cpp.i
 
 mstch.s: mstch.cpp.s
@@ -149,7 +149,7 @@ mstch.s: mstch.cpp.s
 
 # target to generate assembly for a file
 mstch.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/mstch.cpp.s
 .PHONY : mstch.cpp.s
 
 render_context.o: render_context.cpp.o
@@ -158,7 +158,7 @@ render_context.o: render_context.cpp.o
 
 # target to build an object file
 render_context.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.o
 .PHONY : render_context.cpp.o
 
 render_context.i: render_context.cpp.i
@@ -167,7 +167,7 @@ render_context.i: render_context.cpp.i
 
 # target to preprocess a source file
 render_context.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.i
 .PHONY : render_context.cpp.i
 
 render_context.s: render_context.cpp.s
@@ -176,7 +176,7 @@ render_context.s: render_context.cpp.s
 
 # target to generate assembly for a file
 render_context.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/render_context.cpp.s
 .PHONY : render_context.cpp.s
 
 state/in_section.o: state/in_section.cpp.o
@@ -185,7 +185,7 @@ state/in_section.o: state/in_section.cpp.o
 
 # target to build an object file
 state/in_section.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.o
 .PHONY : state/in_section.cpp.o
 
 state/in_section.i: state/in_section.cpp.i
@@ -194,7 +194,7 @@ state/in_section.i: state/in_section.cpp.i
 
 # target to preprocess a source file
 state/in_section.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.i
 .PHONY : state/in_section.cpp.i
 
 state/in_section.s: state/in_section.cpp.s
@@ -203,7 +203,7 @@ state/in_section.s: state/in_section.cpp.s
 
 # target to generate assembly for a file
 state/in_section.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/in_section.cpp.s
 .PHONY : state/in_section.cpp.s
 
 state/outside_section.o: state/outside_section.cpp.o
@@ -212,7 +212,7 @@ state/outside_section.o: state/outside_section.cpp.o
 
 # target to build an object file
 state/outside_section.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.o
 .PHONY : state/outside_section.cpp.o
 
 state/outside_section.i: state/outside_section.cpp.i
@@ -221,7 +221,7 @@ state/outside_section.i: state/outside_section.cpp.i
 
 # target to preprocess a source file
 state/outside_section.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.i
 .PHONY : state/outside_section.cpp.i
 
 state/outside_section.s: state/outside_section.cpp.s
@@ -230,7 +230,7 @@ state/outside_section.s: state/outside_section.cpp.s
 
 # target to generate assembly for a file
 state/outside_section.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/state/outside_section.cpp.s
 .PHONY : state/outside_section.cpp.s
 
 template_type.o: template_type.cpp.o
@@ -239,7 +239,7 @@ template_type.o: template_type.cpp.o
 
 # target to build an object file
 template_type.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.o
 .PHONY : template_type.cpp.o
 
 template_type.i: template_type.cpp.i
@@ -248,7 +248,7 @@ template_type.i: template_type.cpp.i
 
 # target to preprocess a source file
 template_type.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.i
 .PHONY : template_type.cpp.i
 
 template_type.s: template_type.cpp.s
@@ -257,7 +257,7 @@ template_type.s: template_type.cpp.s
 
 # target to generate assembly for a file
 template_type.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/template_type.cpp.s
 .PHONY : template_type.cpp.s
 
 token.o: token.cpp.o
@@ -266,7 +266,7 @@ token.o: token.cpp.o
 
 # target to build an object file
 token.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.o
 .PHONY : token.cpp.o
 
 token.i: token.cpp.i
@@ -275,7 +275,7 @@ token.i: token.cpp.i
 
 # target to preprocess a source file
 token.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.i
 .PHONY : token.cpp.i
 
 token.s: token.cpp.s
@@ -284,7 +284,7 @@ token.s: token.cpp.s
 
 # target to generate assembly for a file
 token.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/token.cpp.s
 .PHONY : token.cpp.s
 
 utils.o: utils.cpp.o
@@ -293,7 +293,7 @@ utils.o: utils.cpp.o
 
 # target to build an object file
 utils.cpp.o:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -302,7 +302,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.i
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -311,7 +311,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /home/pete/sevabit-explorer-fix-peter && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.s
+	cd /home/pete/copia && $(MAKE) -f ext/mstch/src/CMakeFiles/mstch.dir/build.make ext/mstch/src/CMakeFiles/mstch.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -355,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pete/sevabit-explorer-fix-peter && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pete/copia && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
